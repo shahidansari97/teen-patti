@@ -20,3 +20,7 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+# Ignore dependencies
+node_modules/
+# Optional: Ignore build files
+build/
