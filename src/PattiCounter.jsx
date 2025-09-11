@@ -3,7 +3,8 @@ import "./PattiCounter.css"; // Import CSS
 
 const PattiCounter = () => {
   const suits = ["♥️", "♣️", "♦️", "♠️"];
-  const values = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"];
+  // const values = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"];
+  const values = ["A", "K", "Q", "J", "10", "9", "8", "7", "6", "5", "4", "3", "2"];
 
   // Generate all 52 cards dynamically
   const allCards = suits.flatMap((suit) =>
